@@ -129,13 +129,13 @@ export const MusicPlayer: React.FC<{ songs: Song[] }> = ({ songs }) => {
           onChange={handleSeekChange}
           onMouseUp={togglePlay}
         />
-        <ul className={styles.musicList}>
+        {/* <ul className={styles.musicList}>
           {songs.map((song) => (
             <li className={styles.playlist} key={song.title} onClick={() => playSong(song)}>
               {song.title}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

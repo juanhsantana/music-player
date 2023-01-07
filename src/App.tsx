@@ -8,23 +8,23 @@ function App() {
     {
       title: "Vida Louca",
       artist: "MC Poze do Rodo",
-      url: "../src/assets/musicas/vida-louca-mcpoze.mp3",
+      url: "/musicas/vida-louca-mcpoze.mp3",
       duration: 182,
-      cover: "../src/assets/images/vida-louca.jpg",
+      cover: "/images/vida-louca.jpg",
     },
     {
       title: "Acorda Pedrinho",
       artist: "Jovem Dionísio",
-      url: "../src/assets/musicas/acorda-pedrinho.mp3",
+      url: "/musicas/acorda-pedrinho.mp3",
       duration: 173,
-      cover: "../src/assets/images/acorda-pedrinho.jpg",
+      cover: "/images/acorda-pedrinho.jpg",
     },
     {
       title: "Calm Down",
       artist: "Rema, Selena Gomez",
-      url: "../src/assets/musicas/calm-down.mp3",
+      url: "/musicas/calm-down.mp3",
       duration: 239,
-      cover: "../src/assets/images/calm-down.jpg",
+      cover: "/images/calm-down.jpg",
     },
   ];
   return (
