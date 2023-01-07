@@ -1,0 +1,15 @@
+:root {
+  --colors-background: #0F0D13;
+  --colors-purple: #2A2141;
+  --colors-whitesmoke: #E1E1E6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
